@@ -1,64 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Static Resume</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-  <div class="container">
- 
-    <section id="personal-info">
-      <img src="/assets/profile.jpeg" alt="Profile Picture" class="profile-pic" />
-      <h1>Ayan Sheikh</h1>
-      <p>Contact: <a href="mailto:ayansheikh6600@gmail.com">ayansheikh6600@gmail.com</a></p>
-      <p>Phone: 03198187639</p>
-      <p>Website: <a href="https://portfolio-latest-rose.vercel.app/" target="_blank">Portfolio</a></p>
-    </section>
 
-    
-    <section id="education">
-      <h2>Education</h2>
-      <ul>
-        <li>Matric in Computer Science</li>
-        <li>Intermediate in Engineering</li>
-      </ul>
-    </section>
+  <div class="resume-container">
+    <div class="left-column">
+      <!-- Profile Image Section -->
+      <div class="profile-image">
+        <img src="assets/profile.jpeg" alt="Profile Image" />
+      </div>
 
-    
-    <section id="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li>JavaScript</li>
-        <li>TypeScript</li>
-        <li>React.js</li>
-        <li>React Native</li>
-        <li>Java</li>
-        <li>Dart</li>
-        <li>Next.js</li>
-      </ul>
-    </section>
+      <!-- Contact Information Section -->
+      <div class="contact-section">
+        <h2>Contact</h2>
+        <p>Phone: 03198187639</p>
+        <p>Email: <a href="mailto:ayansheikh6600@gmail.com">ayansheikh6600@gmail.com</a></p>
+        <p>Website: <a href="https://portfolio-latest-rose.vercel.app/" target="_blank">Portfolio</a></p>
+      </div>
 
-    
-    <section id="work-experience">
-      <h2>Work Experience</h2>
-      <ul>
-        <li>3 months Experience in Union tech</li>
-        <li>2 years Freelancing</li>
-      </ul>
-    </section>
-    <section id="work-experience">
-      <h2>Reference</h2>
-      <ul>
-        <li>Available Upon Request</li>
-        
-      </ul>
-    </section>
+      <!-- Communication Section -->
+      <div class="communication-section">
+        <h2>Communication</h2>
+        <p>Effective Verbal Communication: Able to clearly convey technical information and ideas to both technical and
+          non-technical stakeholders in team meetings and client interactions.</p>
+        <p>Written Communication: Proficient in writing clear, concise, and well-structured documentation and emails.
+        </p>
+      </div>
 
-    <button id="toggle-skills">Open Skills</button>
+      <!-- Leadership Section -->
+      <div class="leadership-section">
+        <h2>Leadership</h2>
+        <p>Skilled in leading cross-functional teams, guiding projects, and fostering collaboration to meet objectives
+          and deliver results.</p>
+      </div>
+    </div>
+
+    <!-- Right Column -->
+    <div class="right-column">
+      <!-- Name and Job Title Section -->
+      <div class="name-section">
+        <h1>Ayan Sheikh</h1>
+        <h3>Frontend Developer</h3>
+      </div>
+
+      <!-- Education Section -->
+      <div class="education-section">
+        <h2>Education</h2>
+        <ul>
+          <li>Matric in Computer Science</li>
+          <li>Intermediate in Engineering</li>
+        </ul>
+      </div>
+
+      <!-- Skills Section -->
+      <div class="skills-section">
+        <div class="skills">
+
+          <h2>Skills</h2>
+          <button id="toggle-skills">></button>
+
+        </div>
+
+        <ul id="skills">
+          <li>HTML, CSS, JavaScript</li>
+          <li>TypeScript</li>
+          <li>React.js</li>
+          <li>Next.js</li>
+          <li>React Native</li>
+          <li>Dart</li>
+          <li>Java</li>
+        </ul>
+      </div>
+
+      <!-- Work Experience Section -->
+      <div class="experience-section">
+        <h2>Work Experience</h2>
+        <ul>
+          <li>Frontend Developer at Union Tech - 3 months</li>
+          <li>Freelancer - 2 years</li>
+        </ul>
+      </div>
+
+      <!-- References Section -->
+      <div class="references-section">
+        <h2>References</h2>
+        <p>Available upon request</p>
+      </div>
+    </div>
   </div>
+
+  <!-- Toggle Skills Button -->
 
   <script src="script.js"></script>
 </body>
+
 </html>
