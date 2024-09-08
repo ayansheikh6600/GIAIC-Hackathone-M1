@@ -37,6 +37,8 @@ h2 {
   border: none;
   font-size: larger;
   rotate: 90deg;
+  padding: 5px;
+  cursor: pointer;
 }
 
 .resume-container {
